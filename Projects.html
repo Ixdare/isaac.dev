@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects — Isaac</title>
+<meta name="description" content="Isaac's portfolio — projects.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="topbar">
+  <a href="index.html" class="topbar__mark">Isaac</a>
+  <button class="topbar__toggle" aria-expanded="false">Menu</button>
+</div>
+<nav class="topbar__menu">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="projects.html" aria-current="page">Projects</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="shell">
+
+  <aside class="index">
+    <a href="index.html" class="index__mark">Isaac</a>
+    <div class="index__role">Software Developer</div>
+    <nav class="index__nav">
+      <a href="index.html"><span class="n">01</span>Home</a>
+      <a href="about.html"><span class="n">02</span>About</a>
+      <a href="projects.html" aria-current="page"><span class="n">03</span>Projects</a>
+      <a href="contact.html"><span class="n">04</span>Contact</a>
+    </nav>
+    <div class="index__foot">
+      <div><a href="contact.html">Get in touch</a></div>
+      <div><span class="js-year"></span></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="content content--wide">
+      <p class="eyebrow">Projects</p>
+      <h1>Projects</h1>
+      <p class="lede">
+        One project up so far, with more in the pipeline. Here's what
+        I've built and what I'm working on next.
+      </p>
+
+      <div class="project">
+        <div class="project__head">
+          <h3>Cryptocurrency Tracker</h3>
+          <span class="project__meta">Group project · React</span>
+        </div>
+        <p>
+          <!-- EDIT: describe what the app actually does — e.g. live
+               price tracking, watchlists, charts — and what you built
+               specifically within the team. -->
+          A web app that tracks live cryptocurrency prices, built with
+          a small team as a group project. My focus was on
+          <!-- EDIT: e.g. "the price chart components and API integration" --> 
+          [describe your part of the build here].
+        </p>
+        <ul class="stack">
+          <li>React</li>
+          <!-- EDIT: add the rest of the stack — API used, CSS approach, etc. -->
+          <li>JavaScript</li>
+          <li>REST API</li>
+        </ul>
+        <div class="project-gallery">
+             <img src="assets/images/Login.jpg" alt="crypto Dashboard - login view" onclick="window.open(this.src)">
+             <img src="assets/images/dashboard.jpg" alt="crypto Dashboard - Dashboard view" onclick="window.open(this.src)">
+             <img src="assets/images/Market.jpg" alt="crypto Dashboard - Market view" onclick="window.open(this.src)">
+        </div>      
+        <p style="margin-top: 16px;">
+          <!-- EDIT: point this at the actual repo for this project once you have it -->
+          <a href="https://github.com/maryam265" class="link-arrow" target="_blank" rel="noopener">View repo</a>
+        </p>
+      </div>
+
+      <div class="project project--placeholder">
+        <div class="project__head">
+          <h3>Next project — in progress</h3>
+          <span class="project__meta">Building now</span>
+        </div>
+        <p>
+          This page grows as new projects ship. Check back, or
+          <a href="contact.html" class="link-arrow">get in touch</a> if you
+          want to hear about what's currently in the works.
+        </p>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

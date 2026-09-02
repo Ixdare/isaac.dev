@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <meta name="description" content="Isaac's portfolio — contact.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- EmailJS SDK -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<div class="topbar">
+  <a href="index.html" class="topbar__mark">Isaac</a>
+  <button class="topbar__toggle" aria-expanded="false">Menu</button>
+</div>
+<nav class="topbar__menu">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="projects.html">Projects</a>
+  <a href="contact.html" aria-current="page">Contact</a>
+</nav>
+
+<div class="shell">
+
+  <aside class="index">
+    <a href="index.html" class="index__mark">Isaac</a>
+    <div class="index__role">Website Developer</div>
+    <nav class="index__nav">
+      <a href="index.html"><span class="n">01</span>Home</a>
+      <a href="about.html"><span class="n">02</span>About</a>
+      <a href="projects.html"><span class="n">03</span>Projects</a>
+      <a href="contact.html" aria-current="page"><span class="n">04</span>Contact</a>
+    </nav>
+    <div class="index__foot">
+      <div><a href="contact.html">Get in touch</a></div>
+      <div><span class="js-year"></span></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="content">
+      <p class="eyebrow">Contact</p>
+      <h1>Get in touch</h1>
+      <p class="lede">
+        Have a role, a project, or a question? Send a note below.
+      </p>
+
+      <form class="contact-form" novalidate>
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="submit">Send message</button>
+        <p class="form-status" role="status"></p>
+      </form>
+
+      <div class="contact-alt">
+        <h3>Other ways to reach me</h3>
+        <dl>
+          <dt>Email</dt>
+          <dd><a href="mailto:Ioluwadare4@gmail.com">Ioluwadare4@gmail.com</a></dd>
+          <dt>GitHub</dt>
+          <dd><a href="https://github.com/Ixdare" target="_blank" rel="noopener">github.com/Ixdare</a></dd>
+        </dl>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
